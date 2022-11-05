@@ -7,7 +7,6 @@ import { toast } from 'react-toastify'
 import Spinner from "../components/Spinner";
 import { login, reset } from '../features/auth/authSlice'
 
-login, reset 
 function Login() {
   const [formData, setFormData] = useState({
     email: '',

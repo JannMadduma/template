@@ -6,7 +6,6 @@ import GoalForm from "../components/GoalForm";
 import GoalItem from "../components/GoalItem";
 import Spinner from "../components/Spinner";
 import { getGoals, reset } from "../features/goals/goalSlice";
-import React from "react";
 
 function Dashboard() {
   const navigate = useNavigate();
